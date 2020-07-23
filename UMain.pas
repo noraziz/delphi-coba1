@@ -25,7 +25,7 @@ implementation
 
 procedure TFormUtama.btnOKClick(Sender: TObject);
 begin
-  ShowMessage('OK!');
+  ShowMessage('Hello, OK!');
 end;
 
 end.
