@@ -13,6 +13,19 @@ object FormUtama: TFormUtama
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 144
+    Top = 32
+    Width = 207
+    Height = 25
+    Caption = 'Ini adalah Label Judul'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
   object btnOK: TButton
     Left = 208
     Top = 80

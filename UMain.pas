@@ -9,6 +9,7 @@ uses
 type
   TFormUtama = class(TForm)
     btnOK: TButton;
+    Label1: TLabel;
     procedure btnOKClick(Sender: TObject);
   private
     { Private declarations }
