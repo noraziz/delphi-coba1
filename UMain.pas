@@ -7,8 +7,9 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TForm1 = class(TForm)
-    Button1: TButton;
+  TFormUtama = class(TForm)
+    btnOK: TButton;
+    procedure btnOKClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -16,10 +17,15 @@ type
   end;
 
 var
-  Form1: TForm1;
+  FormUtama: TFormUtama;
 
 implementation
 
 {$R *.dfm}
+
+procedure TFormUtama.btnOKClick(Sender: TObject);
+begin
+  ShowMessage('OK!');
+end;
 
 end.

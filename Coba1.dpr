@@ -2,13 +2,13 @@ program Coba1;
 
 uses
   Vcl.Forms,
-  UMain in 'UMain.pas' {Form1};
+  UMain in 'UMain.pas' {FormUtama};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFormUtama, FormUtama);
   Application.Run;
 end.

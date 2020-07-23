@@ -1,7 +1,7 @@
-object Form1: TForm1
+object FormUtama: TFormUtama
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = 'Form Utama'
   ClientHeight = 231
   ClientWidth = 505
   Color = clBtnFace
@@ -13,12 +13,13 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object Button1: TButton
+  object btnOK: TButton
     Left = 160
     Top = 72
     Width = 75
     Height = 25
-    Caption = 'Button1'
+    Caption = 'OK'
     TabOrder = 0
+    OnClick = btnOKClick
   end
 end
