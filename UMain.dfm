@@ -14,8 +14,8 @@ object FormUtama: TFormUtama
   PixelsPerInch = 96
   TextHeight = 13
   object btnOK: TButton
-    Left = 160
-    Top = 72
+    Left = 208
+    Top = 80
     Width = 75
     Height = 25
     Caption = 'OK'
